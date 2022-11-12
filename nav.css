@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    background: grey;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.header{
+    background-color: rgb(11, 11, 11);
+    padding: 12px 10px;
+    height: 36px;
+    opacity: .8;
+  
+    
+}
+.logo{
+    /* margin: 5px 10px; */
+    display: inline-block;
+    position: absolute;
+    left: 13px;
+    top: 2px;
+    /* background-color: black; */
+}
+.nav{
+    
+    display: block;
+    width: 51%;
+    /* border: 2px solid yellow; */
+    margin: 5px auto;
+    /* top: 20px; */
+    left: 50%;
+    
+    
+    
+}
+.search{
+    position: absolute;
+    right: 60px;
+    top: 16px;
+    /* border: 2px solid purple; */
+    display: inline-block;
+}
+.logo img{
+    /* width: 120px;] */
+    height: 55px;
+    filter: invert(100%);
+    border-radius: 100px;
+}
+
+.nav {
+    display: block; 
+    /* background: grey; */
+     /* opacity:(0.5); */
+     /* opacity: .5; */
+
+}
+
+.nav li {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    /* opacity: .5; */
+
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 11px 29px;
+
+}
+input{
+    border-radius: 10px;
+    padding: 5px 9px;
+    font-family: cursive;
+
+}
+.logo h1{
+    margin: -48px 63px;
+}
+.nav ul li a:hover{
+    color: grey;
+    border-radius: 50px;
+    height: 20px;
+}
+.content{
+    /* border: 2px solid white; */
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+    
+}
+.content h1{
+    padding: 44px 10px;
+    line-height: 56px;
+    font-weight: 67px;
+    font-weight: bolder;
+    font-size: 69px;
+    font-family: 'Dancing Script', cursive;
+}
+.content p{
+    font-size: 17px;
+    line-height: 27px;
+    font-family: 'Manrope', sans-serif;
+}
+button{
+    width: 200px;
+    padding: 18px 0px;
+    text-align: center;
+    margin: 30px 17px;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover  span{
+    width: 100%;
+
+}
+button:hover{
+    border: none;
+}
